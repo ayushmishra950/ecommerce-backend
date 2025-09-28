@@ -14,7 +14,7 @@ const Login = ({ onLogin }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.get(`http://localhost:5000/login/?form=${JSON.stringify(formData)}`);
+      const res = await axios.get(`https://ecommerce-backend-qotf.onrender.com/login/?form=${JSON.stringify(formData)}`);
       if (res.status === 200) {
         localStorage.setItem('token', res.data.token);
         alert(res.data.success);
