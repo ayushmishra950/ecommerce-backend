@@ -17,7 +17,7 @@ const Register = () => {
         e.preventDefault();
 
         try {
-            const res = await axios.post('http://localhost:5000/register', formData);
+            const res = await axios.post('https://ecommerce-backend-qotf.onrender.com/register', formData);
 
             if (res.status === 201) { alert(res.data); navigate('/login') }
         }
