@@ -9,6 +9,10 @@ require('dotenv').config();
 require('../Connection/connection');
 require('../Routes/route')(app);
 
+app.get('/',(req,res)=>{
+    res.json('server is running');
+});
+
 
 app.listen(5000,()=>{
     console.log('server is running on path "http://localhost:5000"');
