@@ -28,7 +28,7 @@ const Pay = () => {
 
     const information = async() => {
    try {
-    const res = await axios.get('http://localhost:5000/user');
+    const res = await axios.get('https://ecommerce-backend-qotf.onrender.com/user');
     console.log(res.data.name);
      setUserInfo({
     name : res.data.name,
