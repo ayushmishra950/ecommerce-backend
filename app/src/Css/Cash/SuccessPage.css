@@ -1,0 +1,16 @@
+.success-container {
+  text-align: center;
+  margin-top: 80px;
+  font-family: sans-serif;
+}
+
+.success-container h2 {
+  color: green;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.success-container p {
+  font-size: 18px;
+  margin: 10px 0;
+}

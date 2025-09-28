@@ -1,0 +1,46 @@
+.cart-popup-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.cart-popup {
+  background-color: green;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  min-width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.progress-bar-container {
+  height: 5px;
+  background-color: #ffffff50; /* light transparent background */
+  margin-top: 10px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: white;
+  width: 0%;
+  transition: width 0.05s linear;
+}
+

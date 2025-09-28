@@ -1,0 +1,230 @@
+/* Profile.css */
+.profile-container {
+  display: flex;
+  height: 574px;
+  color: rgb(250, 249, 249);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: transparent;
+}
+
+.profile-sidebar {
+  width: 180px;
+  position: absolute;
+   left: -305px;
+  background-color: #101010;
+  color: white;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  top: 122px;
+  transition: left 0.3s ease-in-out;
+  z-index: 1000;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.profile-sidebar.open {
+  left: 0;
+}
+
+ .close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  float: right;
+  cursor: pointer;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+.profile-avatar2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 584px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-sidebar li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  color: #f5f0f0;
+  font-size: 16px;
+}
+
+.profile-sidebar li:hover,
+.profile-sidebar li.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.profile-content {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #0c0c0c;
+  color: rgb(251, 249, 249);
+}
+
+.profile-content h2 {
+  margin-bottom: 20px;
+  color: #f8f5f5;
+  margin-left: 600px;
+  margin-top: -20px;
+}  
+.profile-content p {
+  margin-left: 600px;
+
+}
+
+.profile-content ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.profile-content button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.profile-content span{
+    margin-left: -120px;
+    margin-top: 220px;
+    position: absolute;
+    width: 80px;
+    left: 790px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: #007bff;
+    /* float: left; */
+}
+
+.profile-content button:hover {
+  background-color: #0056b3;
+}
+
+
+/* .cart-wrapper2 {
+  padding: 10px 20px;
+}
+
+.cart-item2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 12px 20px;
+  color: white;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 0px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+.product-image2 {
+  width: 80px;
+  height: 110px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.product-details2 {
+  flex: 1;
+  margin-left: 150px;
+}
+
+.product-details2 h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product-details2 p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.product-actions2 {
+  display: flex;
+  gap: 8px;
+}
+
+.btn2 {
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn2.yellow {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.btn2.blue {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.btn2.red {
+  background-color: #f44336;
+  color: #fff;
+}
+.btn2.yellow:hover {
+  background-color: #e0a800;
+}
+.btn2.blue:hover {
+  background-color: #0198a6;
+}
+.btn2.red:hover {
+  background-color: #d32f2f;
+}
+
+
+@media screen and (max-width: 600px) {
+ 
+  .actions2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+  }
+
+}   */
+

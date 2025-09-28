@@ -1,0 +1,100 @@
+.settings-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px 30px;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.settings-container h2 {
+  margin-bottom: 25px;
+  color: #333;
+  text-align: center;
+  font-weight: 600;
+}
+
+.section {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.section input[type="text"],
+.section input[type="email"],
+.section input[type="password"] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+.section input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.section.toggle {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.save-btn {
+  padding: 10px 25px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  margin-left: 220px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.save-btn:hover {
+  background: #0056b3;
+}
+
+/* Dark Mode Styles */
+.settings-container.dark {
+  background-color: #1f1f1f;
+  color: #eee;
+}
+
+.settings-container.dark h2 {
+  color: #fff;
+}
+
+.settings-container.dark .section label {
+  color: #ccc;
+}
+
+.settings-container.dark input[type="text"],
+.settings-container.dark input[type="email"],
+.settings-container.dark input[type="password"] {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.settings-container.dark input:focus {
+  border-color: #66b2ff;
+}
+
+.settings-container.dark .save-btn {
+  background-color: #3399ff;
+}
+
+.settings-container.dark .save-btn:hover {
+  background-color: #1a75ff;
+}

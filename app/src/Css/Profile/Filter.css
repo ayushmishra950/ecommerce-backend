@@ -1,0 +1,164 @@
+.sidebar-filter {
+  background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+  padding: 30px 25px;
+  color: #333;
+  width: 640px;
+  height: 440px;
+  margin-top: 20px;
+  margin-left: 256px;
+  border-radius: 15px;
+  overflow-y: auto;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sidebar-filter h3 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #444;
+  text-align: center;
+  font-weight: 600;
+}
+
+.filter-section {
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.filter-section label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+  color: #222;
+}
+
+.price-inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.price-inputs input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: #fff;
+}
+
+.filter-section div {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-section input[type="checkbox"],
+.filter-section input[type="radio"] {
+  accent-color: #ec407a;
+  transform: scale(1.2);
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.filter-buttons button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.filter-buttons button:not(.reset) {
+  background-color: #ec407a;
+  color: white;
+}
+
+.filter-buttons button:not(.reset):hover {
+  background-color: #d81b60;
+}
+
+.filter-buttons .reset {
+  background-color: #fce4ec;
+  color: #ec407a;
+  border: 1px solid #ec407a;
+}
+
+.filter-buttons .reset:hover {
+  background-color: #fff0f4;
+}
+
+/* Tablet View (up to 768px) */
+@media (max-width: 768px) {
+  .sidebar-filter {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  .filter-buttons {
+    flex-direction: column;
+  }
+
+  .filter-buttons button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .price-inputs {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sidebar-filter h3 {
+    font-size: 20px;
+  }
+}
+
+/* Mobile View (up to 480px) */
+@media (max-width: 480px) {
+  .sidebar-filter {
+    padding: 15px;
+  }
+
+  .filter-section {
+    padding: 12px 15px;
+  }
+
+  .price-inputs input {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .filter-section label,
+  .filter-section div span {
+    font-size: 14px;
+  }
+
+  .filter-buttons button {
+    font-size: 13px;
+    padding: 9px;
+  }
+
+  .sidebar-filter h3 {
+    font-size: 18px;
+    padding: 8px;
+  }
+}
+

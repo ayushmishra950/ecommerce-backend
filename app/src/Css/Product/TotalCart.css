@@ -1,0 +1,160 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cart-container {
+  width: 100%;
+  margin-top: 30px;
+  padding: 0 0 50px 0;
+}
+
+.summary-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  margin-top: -20px;
+  margin-bottom: -50px;
+  gap: 20px;
+}
+
+.btn-summary {
+  padding: 10px 18px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: default;
+  min-width: 140px;
+  text-align: center;
+}
+
+.qty {
+  background-color: #00cfe8; /* Cyan blue */
+  color: #000;
+}
+
+.price {
+  background-color: #ffc107; /* Amber yellow */
+  color: #000;
+}
+
+
+.cart-wrapper {
+  padding: 10px 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 12px 20px;
+  color: white;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 0px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+.product-image {
+  width: 80px;
+  height: 110px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.product-details {
+  flex: 1;
+  margin-left: 150px;
+}
+
+.product-details h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product-details p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.product-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn.yellow {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.btn.blue {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.btn.red {
+  background-color: #f44336;
+  color: #fff;
+}
+.btn.yellow:hover {
+  background-color: #e0a800;
+}
+.btn.blue:hover {
+  background-color: #0198a6;
+}
+.btn.red:hover {
+  background-color: #d32f2f;
+}
+
+@media screen and (max-width: 600px) {
+  .item-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+  }
+
+  .summary {
+    flex-direction: column;
+    gap: 10px;
+  }
+}  
+
+
+
+
+
+
+
+
+
+
+
+

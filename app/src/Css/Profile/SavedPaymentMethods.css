@@ -1,0 +1,59 @@
+.saved-methods-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+.saved-methods-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.method-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.method-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.method-list button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-method {
+  display: flex;
+  gap: 10px;
+}
+
+.add-method input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.add-method button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}

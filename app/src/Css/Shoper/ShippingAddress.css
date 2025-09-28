@@ -1,0 +1,83 @@
+.ship{
+    width: 870px;
+    height: auto;
+    color: white;
+    margin-left: 189px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    float: left;
+    border-radius: 15px;
+    border: 2px solid #908b34;
+}
+
+.ship h1{
+    text-align: center;
+}
+
+
+.input-box {
+  margin-left: 20px;
+  background-color: rgb(55, 53, 53);
+  width: 250px;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  height: 24px;
+  color: white;
+}
+
+.address-input {
+  margin-left: 20px;
+  background-color: rgb(55, 53, 53);
+  width: 800px;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  height: 60px;
+  color: white;
+}
+
+.label-left {
+  margin-left: 20px;
+}
+
+.label-mid {
+  margin-left: 210px;
+}
+
+.label-right {
+  margin-left: 229px;
+}
+
+.error-row {
+  margin-left: 20px;
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.error-gap {
+  margin-left: 210px;
+}
+
+.submit-btn {
+  width: 380px;
+  height: 32px;
+  cursor: pointer;
+  margin-left: 250px;
+  font-size: 16px;
+  border-radius: 7px;
+  color: white;
+  background-color: #00aaff;
+  border: none;
+}
+
+.use-old-btn {
+  width: 380px;
+  height: 32px;
+  cursor: pointer;
+  margin-left: 250px;
+  font-size: 16px;
+  border-radius: 7px;
+  background-color: #ffcc00;
+  border: none;
+  margin-bottom: 25px;
+}

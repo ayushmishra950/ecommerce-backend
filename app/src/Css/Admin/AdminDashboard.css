@@ -1,0 +1,102 @@
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0c0c0c;
+  color: white;
+}
+
+.admin-sidebar {
+  width: 140px;
+  height: 320px;
+  background-color: #2b2b2c;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  top: 100px;
+  left: -180px;
+  z-index: 1000;
+transition: left 0.3s ease-in-out;
+}
+.admin-sidebar.right{
+  left: 110px;
+}
+
+.admin-logo {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-sidebar li {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.admin-sidebar li:hover {
+  color: #ffc107;
+}
+
+.admin-main {
+  margin-left: 220px; 
+  flex: 1;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+}
+
+/* Header */
+.admin-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* User info & logout */
+.admin-user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.admin-logout-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-logout-btn:hover {
+  background-color: #c82333;
+}
+
+/* Dashboard Cards */
+.admin-content {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.admin-card {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  height: 100px;
+  flex: 1 1 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+}

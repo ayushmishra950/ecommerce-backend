@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  font-family: sans-serif;
+}
+
+.summary-container4 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  margin-top: 40px;
+  margin-left: 174px;
+  gap: 20px;
+}
+
+/* Left Table */
+.product-table {
+  flex: 2;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  overflow-x: auto;
+}
+
+.table-title {
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.product-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #555;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-table img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.total-row {
+  background-color: #222;
+}
+
+.total-row input {
+  width: 50px;
+  padding: 5px;
+  background: #000;
+  color: white;
+  border: 1px solid #666;
+  text-align: center;
+}
+
+/* Right Side Address */
+.shipping-info {
+  flex: 1;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #444;
+}
+
+.shipping-info h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.shipping-info p {
+  margin: 10px 0;
+}
+
+/* Icons */
+.icon-btn {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.icon-btn:hover {
+  color: #b9b1b1;
+}
+
+
+.circle-icon {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  justify-content: center;
+  margin: auto;
+  transition: 0.3s ease;
+}
+
+.circle-icon:hover {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+
+.submit{
+    margin-top:25px;
+    margin-left: 400px;
+    float: left;
+    color: rgb(20, 20, 20);
+    background-color: rgb(228, 206, 10);
+    width: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 35px;
+    border-radius: 12px;
+    cursor: pointer;
+    
+}
+
+.submit2{
+    margin-top:-36px;
+    margin-left: 600px;
+    cursor: pointer;
+    float: left;
+    color: rgb(255, 255, 255);
+    background-color: rgb(19, 185, 235);
+    width: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 35px;
+    border-radius: 12px;
+    
+}

@@ -1,0 +1,160 @@
+.navbar-wrapper {
+  background: linear-gradient(to right, #4b0082, #1a1a80);
+  color: white;
+  font-family: sans-serif;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 30px;
+}
+
+.navbar-top.open {
+  padding: 25px 30px;
+}
+
+.logo {
+  font-size: 29px;
+  font-weight: bold;
+  margin-left: 40px;
+  color: white;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 25px;
+  padding: 5px 15px;
+  width: 50%;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  width: 100%;
+  height: 25px;
+  padding-left: 10px;
+}
+
+.search-box input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.search-icon {
+  color: white;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-container {
+  position: relative;
+  display: inline-block;
+  height: 40px;
+}
+
+.cart-icon {
+  font-size: 24px;
+  color: #0db8d6;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.cart-count {
+  position: absolute;
+  top: -2px;
+  right: -8px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile {
+  background-color: #ffcc00;
+  color: black;
+}
+
+.logout {
+  background-color: #ff4444;
+  color: white;
+}
+
+.admin {
+  background-color: #00cccc;
+  color: white;
+}
+
+.admin2 {
+  background-color: #27dc6f;
+  color: white;
+}
+
+.navbar-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 20px;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.filter-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.filter-btn button {
+  padding: 6px 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.filter-btn button:hover {
+  background-color: #555;
+}
+
+.btn2 {
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  background: transparent;
+  font-size: 20px;
+  color: white;
+  margin-left: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
