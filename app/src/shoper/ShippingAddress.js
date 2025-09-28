@@ -65,7 +65,7 @@ const ShippingAddress = () => {
 
  const out = async() => {
    try {
-    const res = await axios.get('http://localhost:5000/user');
+    const res = await axios.get('https://ecommerce-backend-qotf.onrender.com/user');
      const prefilledObj = {
     name: res.data.name,
     country: 'India',
