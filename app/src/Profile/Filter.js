@@ -54,7 +54,7 @@ const Filter = () => {
   };
 
     const handleApply = async() => {
-      const st = await axios.post('http://localhost:5000/filter',filters)
+      const st = await axios.post('https://ecommerce-backend-qotf.onrender.com/filter',filters)
       console.log(st.data);
       navigate('/filter/child',{
         state : {
