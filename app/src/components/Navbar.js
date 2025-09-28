@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const information = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/user');
+      const res = await axios.get('https://ecommerce-backend-qotf.onrender.com/user');
       setObj(res.data);
     } catch (err) {
       setObj(null);
@@ -63,7 +63,7 @@ const Navbar = () => {
   const handleLogout = async () => {
     const ask = window.confirm("Are you sure you want to logout?");
     if (ask) {
-      await axios.get("http://localhost:5000/logout");
+      await axios.get("https://ecommerce-backend-qotf.onrender.com/logout");
       setObj(null);
       navigate("/");
     }
