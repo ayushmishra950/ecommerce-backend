@@ -10,7 +10,7 @@ const Logout = () => {
     const confirm = window.confirm('Are you sure you want to logout?');
     if (confirm) {
       localStorage.clear();
-      const store = await axios.get('http://localhost:5000/logout')
+      const store = await axios.get('https://ecommerce-backend-qotf.onrender.com/logout')
       alert(store.data.message);
       navigate('/')
       window.location.reload();
